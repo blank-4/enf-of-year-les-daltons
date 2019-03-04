@@ -6,10 +6,20 @@
     }
 
     .wrap-gif {
-        background-image: url(https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif);
+        /* background-image: url(https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif);
         position: relative;
         top: 0px;
         height: 100vh;
-        background-position: top;
+        background-position: top; */
+        background-image: url(https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif);
+        position: relative;
+        top: 0;
+        height: 650px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #cssmenu ul {
+        display: flex;
     }
 }

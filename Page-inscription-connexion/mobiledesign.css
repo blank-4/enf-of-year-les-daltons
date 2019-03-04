@@ -73,12 +73,22 @@
         display: none;
     }
 
+    #cssmenu ul {
+        display: flex;
+    }
+
     .wrap-gif {
-        background-image: url("https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif");
+        /* background-image: url("https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif");
         position: relative;
         top: -19px;
         height: 100vh;
-        background-position: top;
+        background-position: top; */
+        background-image: url(https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif);
+        position: relative;
+        top: -19px;
+        height: 650px;
+        background-position: center;
+        background-size: cover;
     }
 
     footer {
