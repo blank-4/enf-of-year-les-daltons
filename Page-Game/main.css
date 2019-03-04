@@ -1,0 +1,223 @@
+body {
+    background-image: url("https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif");
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    overflow: hidden;
+}
+header {
+    position: relative;
+    height: 70px;
+    background-image: url("https://cdn.dribbble.com/users/546898/screenshots/5496692/1600_2x.jpg");
+    /* background-color: #0a3d62; */
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    margin-top: -2%;
+    font-family: 'Nova Flat', cursive;
+    font-size: 120%;
+    
+
+    /* position: absolute;
+    left: 550px;
+    top: 49px;
+    color: white;
+    text-align: center;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    background-image: url("https://images.pexels.com/photos/131685/pexels-photo-131685.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");  */
+}
+
+header h1 {
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+h3{
+    font: 65px 'Grand Hotel', cursive;
+    text-align: center;
+}
+
+/* p{
+    font-size: 230%;
+    text-align: center;
+} */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
+#cssmenu {
+  /* background-image:url("https://cdn.dribbble.com/users/59138/screenshots/3464011/wallpaper_concert_dribbble.png"); */
+  background-color: #b33939;
+  width: auto;
+}
+
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+
+#cssmenu ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#cssmenu ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+#cssmenu.align-right ul li {
+  float: right;
+}
+
+#cssmenu.align-center ul {
+  text-align: center;
+}
+
+#cssmenu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+
+#cssmenu ul li a:hover {
+  color: #333333;
+}
+
+#cssmenu ul li a:hover:before {
+  width: 100%;
+}
+
+#cssmenu ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+
+#cssmenu ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+
+#cssmenu ul li.last > a:after,
+
+#cssmenu ul li:last-child > a:after {
+  display: none;
+}
+
+#cssmenu ul li.active a {
+  color: #333333;
+}
+
+#cssmenu ul li.active a:before {
+  width: 100%;
+}
+
+#cssmenu.align-right li.last > a:after,
+
+#cssmenu.align-right li:last-child > a:after {
+  display: block;
+}
+
+#cssmenu.align-right li:first-child a:after {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+
+  #cssmenu ul li {
+    float: none;
+    display: block;
+  }
+
+  #cssmenu ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+
+  #cssmenu ul li.last > a,
+
+  #cssmenu ul li:last-child > a {
+    border: 0;
+  }
+
+  #cssmenu ul li a:after {
+    display: none;
+  }
+
+  #cssmenu ul li a:before {
+    display: none;
+  }
+}
+
+#debut {
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 800px;
+  font-size: 3.25em;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  text-align: center;
+}
+#debut p {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
+}
+
+footer {
+  height: 40px;
+  width: 100%;
+  background-color: #b33939;
+  position: absolute;
+  bottom: 0;
+}
+
+footer p {
+  color: whitesmoke;
+  text-align: center;
+  line-height: 10px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}

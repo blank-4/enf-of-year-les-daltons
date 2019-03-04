@@ -1,0 +1,15 @@
+/* MEDIA QUERY - DESIGN MOBILE */
+
+@media screen and (max-width: 450px) {
+    header {
+        margin-top: -8%;
+    }
+
+    .wrap-gif {
+        background-image: url(https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif);
+        position: relative;
+        top: 0px;
+        height: 100vh;
+        background-position: top;
+    }
+}
