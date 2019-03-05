@@ -1,0 +1,36 @@
+/* MEDIA QUERY - DESIGN MOBILE */
+
+@media screen and (max-width: 450px) {
+    header {
+        margin-top: -8%;
+    }
+
+    .wrap-gif {
+        /* background-image: url(https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif);
+        position: relative;
+        top: 0px;
+        height: 100vh;
+        background-position: top; */
+        background-image: url(https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif);
+        position: relative;
+        top: 0;
+        height: 650px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #cssmenu ul {
+        display: flex;
+    }
+
+    #cssmenu ul li a {
+        border-bottom: none;
+    }
+
+    .wrap-gameproject {
+        height: 400px;
+        width: 90%;
+        top: 110px;
+        box-shadow: 0px 0px 5px #08142f;
+    }
+}
