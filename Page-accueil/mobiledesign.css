@@ -1,0 +1,39 @@
+/* MEDIA QUERY - DESIGN MOBILE */
+
+@media screen and (max-width: 450px) {
+
+
+    body {
+        background-image : none;
+    }
+
+    header {
+        margin-top: -8%;
+    }
+
+    h3 {
+        font: 65px /* 'Grand Hotel' */ 'ZCOOL QingKe HuangYou', cursive;
+        padding-top: 130px;
+        text-align: center;
+    }
+
+    #debut {
+        display: none;
+    }
+
+    #cssmenu ul {
+        display: flex;
+    }
+
+    #cssmenu ul li a {
+        border-bottom: none;
+    }
+
+    main {
+        height: 650px;
+        position: absolute;
+        background-image: url(https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif);
+        background-position: center;
+        background-size: cover;
+    }
+}

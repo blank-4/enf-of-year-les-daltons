@@ -1,0 +1,112 @@
+/* MEDIA QUERY - DESIGN MOBILE */
+
+@media screen and (max-width: 450px) {
+
+    body {
+        overflow: hidden;
+        background-image: none;
+    }
+
+    header {
+        margin-top: -8%;
+    }
+
+    h2 {
+        margin: 0 0 20px 0;
+        font-weight: 300;
+        font-size: 22px;
+    }
+
+    #login-box {
+        position: relative;
+        top: 60px;
+        margin: 5% auto;
+        width: 100%;
+        height: 500px;
+        background: none;
+        border-radius: 2px;
+        box-shadow: none;
+    }
+
+    .left {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        box-sizing: border-box;
+        padding: 20px;
+        padding-top: 45px;
+        width: 187.5px;
+        height: 400px;
+    }
+
+    .right {
+        position: absolute;
+        top: 30px;
+        right: 15px;
+        box-sizing: border-box;
+        padding: 40px;
+        padding-top: 60px;
+        width: 187.5px;
+        height: 400px;
+        background: url(https://goo.gl/YbktSj);
+        background-size: cover;
+        background-position: center;
+        border-radius: 0 2px 2px 0;
+    }
+
+    input[type="text"], input[type="password"] {
+        display: block;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        padding: 4px;
+        width: 124px;
+        height: 30px;
+        border: none;
+        border-bottom: 1px solid #b33939;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        transition: 0.2s ease;
+    }
+
+    .or {
+        display: none;
+    }
+
+    #cssmenu ul {
+        display: flex;
+    }
+
+    #cssmenu ul li a {
+        border-bottom: none;
+    }
+
+    .wrap-gif {
+        /* background-image: url("https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif");
+        position: relative;
+        top: -19px;
+        height: 100vh;
+        background-position: top; */
+        background-image: url(https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif);
+        position: relative;
+        top: -19px;
+        height: 650px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    footer {
+        height: 40px;
+        width: 100%;
+        background-color: #b33939;
+        position: absolute;
+        bottom: 0;
+      }
+      
+      footer p {
+        color: whitesmoke;
+        text-align: center;
+        line-height: 10px;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+      }
+}
