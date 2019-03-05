@@ -21,10 +21,15 @@
         display: none;
     }
 
+    #cssmenu ul {
+        display: flex;
+    }
+
     main {
-        height: 600px;
+        height: 650px;
         position: absolute;
         background-image: url(https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif);
         background-position: center;
+        background-size: cover;
     }
 }
