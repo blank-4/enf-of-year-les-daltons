@@ -17,7 +17,7 @@
         box-shadow: 0px 0px 10px #b33939;
         background-color: #b33939;
         position: relative;
-        top: 50px;
+        top: 110px;
         /* display: none; */
     }
 
@@ -47,5 +47,9 @@
 
     #cssmenu ul {
         display: flex;
+    }
+
+    #cssmenu ul li a {
+        border-bottom: none;
     }
 }

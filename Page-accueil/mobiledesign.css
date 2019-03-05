@@ -13,7 +13,7 @@
 
     h3 {
         font: 65px /* 'Grand Hotel' */ 'ZCOOL QingKe HuangYou', cursive;
-        padding-top: 50px;
+        padding-top: 130px;
         text-align: center;
     }
 
@@ -23,6 +23,10 @@
 
     #cssmenu ul {
         display: flex;
+    }
+
+    #cssmenu ul li a {
+        border-bottom: none;
     }
 
     main {
