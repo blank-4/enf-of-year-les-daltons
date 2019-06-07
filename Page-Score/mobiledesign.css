@@ -32,11 +32,6 @@
     }
     
     .wrap-gif {
-        /* background-image: url(https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif);
-        position: relative;
-        top: -50px;
-        height: 600px;
-        background-position: top; */
         background-image: url(https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif);
         position: relative;
         top: -50px;
@@ -45,11 +40,11 @@
         background-size: cover;
     }
 
-    #cssmenu ul {
-        display: flex;
+    #cssmenu {
+        text-align: center;
     }
 
-    #cssmenu ul li a {
+    /* #cssmenu ul li a {
         border-bottom: none;
-    }
+    } */
 }

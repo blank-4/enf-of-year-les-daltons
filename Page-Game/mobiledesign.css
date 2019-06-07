@@ -19,13 +19,13 @@
         background-size: cover;
     }
 
-    #cssmenu ul {
-        display: flex;
+    #cssmenu {
+        text-align: center;
     }
 
-    #cssmenu ul li a {
+    /* #cssmenu ul li a {
         border-bottom: none;
-    }
+    } */
 
     .wrap-gameproject {
         height: 400px;

@@ -16,18 +16,6 @@ header {
     margin-top: -2%;
     font-family: 'Nova Flat', cursive;
     font-size: 120%;
-    
-
-    /* position: absolute;
-    left: 550px;
-    top: 49px;
-    color: white;
-    text-align: center;
-    border-left: 2px solid black;
-    border-top: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    background-image: url("https://images.pexels.com/photos/131685/pexels-photo-131685.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");  */
 }
 
 header h1 {

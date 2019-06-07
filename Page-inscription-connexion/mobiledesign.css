@@ -73,13 +73,13 @@
         display: none;
     }
 
-    #cssmenu ul {
-        display: flex;
+    #cssmenu {
+        text-align: center;
     }
 
-    #cssmenu ul li a {
+    /* #cssmenu ul li a {
         border-bottom: none;
-    }
+    } */
 
     .wrap-gif {
         /* background-image: url("https://cdn.dribbble.com/users/769929/screenshots/4990080/trainyourbrain.gif");
