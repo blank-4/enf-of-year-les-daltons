@@ -15,10 +15,11 @@
     <body>
         <div id='cssmenu'>
             <ul>
-                <li><a href='../Page-accueil/index.html'><span>Accueil</span></a></li>
-                <li><a href='../Page-inscription-connexion/index.html'><span>Connexion</span></a></li>
-                <li><a href='../Page-Game/index.html'><span>Jouer</span></a></li>
-                <li class='active'><a href='../Page-Score/index.html'><span>Scores</span></a></li>
+                <li><a href='../Page-accueil/index.php'><span>Accueil</span></a></li>
+                <li><a href='../Page-inscription-connexion/connexion.php'><span>Connexion</span></a></li>
+                <li><a href='../Page-Game/game.php'><span>Jouer</span></a></li>
+                <li class='active'><a href='../Page-Score/score.php'><span>Scores</span></a></li>
+                <!-- <li class='last'><a href='#'><span>Contact</span></a></li> -->
             </ul>
         </div>
         <header>

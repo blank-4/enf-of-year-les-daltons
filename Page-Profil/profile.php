@@ -11,28 +11,22 @@
         <link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
-        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-        <script src="main.js"></script>
     </head>
     <body>
         <div id='cssmenu'>
-            <!-- Menu de navigation du site -->
             <ul>
-                <li class='active'><a href='../Page-accueil/index.html'><span>Accueil</span></a></li>
-                <li><a href='../Page-inscription-connexion/index.html'><span>Connexion</span></a></li>
-                <li><a href='../Page-Game/index.html'><span>Jouer</span></a></li>
-                <li><a href='../Page-Score/index.html'><span>Scores</span></a></li>
+                <li><a href='../Page-accueil/index.php'><span>Accueil</span></a></li>
+                <li class='active'><a href='../Page-inscription-connexion/connexion.php'><span>???</span></a></li>
+                <li><a href='../Page-Game/game.php'><span>Jouer</span></a></li>
+                <li><a href='../Page-Score/score.php'><span>Scores</span></a></li>
             </ul>
         </div>
         <header>
             <h1>Mots Melax</h1>
         </header>
         <main>
-            <div id="accueil">
-                <h3>Bienvenue sur MOTS MELAX</h3>
-                <div id="debut">
-                <p>JOUEZ , EXERCEZ VOUS et DEVENEZ le meilleur au mot melé grâce à MOTS MELAX .</p>
-                </div>
+            <div id="myprofil">
+                
             </div>
         </main>
         <footer>

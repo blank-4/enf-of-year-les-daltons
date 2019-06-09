@@ -9,7 +9,6 @@ header {
     position: relative;
     height: 70px;
     background-image: url("https://cdn.dribbble.com/users/546898/screenshots/5496692/1600_2x.jpg");
-    /* background-color: #0a3d62; */
     width: 100%;
     margin: 0%;
     padding: 0%;
@@ -30,14 +29,9 @@ h3{
     text-align: center;
 }
 
-/* p{
-    font-size: 230%;
-    text-align: center;
-} */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 
 #cssmenu {
-  /* background-image:url("https://cdn.dribbble.com/users/59138/screenshots/3464011/wallpaper_concert_dribbble.png"); */
   background-color: #b33939;
   width: auto;
 }

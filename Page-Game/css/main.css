@@ -9,25 +9,12 @@ header {
     position: relative;
     height: 70px;
     background-image: url("https://cdn.dribbble.com/users/546898/screenshots/5496692/1600_2x.jpg");
-    /* background-color: #0a3d62; */
     width: 100%;
     margin: 0%;
     padding: 0%;
     margin-top: -2%;
     font-family: 'Nova Flat', cursive;
     font-size: 120%;
-    
-
-    /* position: absolute;
-    left: 550px;
-    top: 49px;
-    color: white;
-    text-align: center;
-    border-left: 2px solid black;
-    border-top: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    background-image: url("https://images.pexels.com/photos/131685/pexels-photo-131685.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");  */
 }
 
 header h1 {
@@ -37,14 +24,9 @@ header h1 {
     text-transform: uppercase;
 }
 
-/* p{
-    font-size: 230%;
-    text-align: center;
-} */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 
 #cssmenu {
-  /* background-image:url("https://cdn.dribbble.com/users/59138/screenshots/3464011/wallpaper_concert_dribbble.png"); */
   background-color: #b33939;
   width: auto;
 }

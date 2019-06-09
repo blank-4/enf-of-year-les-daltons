@@ -11,17 +11,15 @@
         <link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
-        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-        <script src="main.js"></script>
     </head>
     <body>
         <div id='cssmenu'>
-            <!-- Menu de navigation du site -->
             <ul>
-                <li class='active'><a href='../Page-accueil/index.html'><span>Accueil</span></a></li>
-                <li><a href='../Page-inscription-connexion/index.html'><span>Connexion</span></a></li>
-                <li><a href='../Page-Game/index.html'><span>Jouer</span></a></li>
-                <li><a href='../Page-Score/index.html'><span>Scores</span></a></li>
+                <li class='active'><a href='../Page-accueil/index.php'><span>Accueil</span></a></li>
+                <li><a href='../Page-inscription-connexion/connexion.php'><span>Connexion</span></a></li>
+                <li><a href='../Page-Game/game.php'><span>Jouer</span></a></li>
+                <li><a href='../Page-Score/score.php'><span>Scores</span></a></li>
+                <!-- <li class='last'><a href='#'><span>Contact</span></a></li> -->
             </ul>
         </div>
         <header>

@@ -294,6 +294,24 @@ input[type="submit"]:active {
   text-align: center;
 }
 
+#error-inscription {
+  position: absolute;
+  background-color: red;
+  right: 275px;
+  top: 50px;
+  height: 180px;
+  width: 190px;
+  flex-flow: column wrap;
+  display: flex;
+}
+
+#error-inscription p {
+  text-align: center;
+}
+
+#error-inscription ul {
+  margin-left: -15px;
+}
 
 footer {
   height: 40px;

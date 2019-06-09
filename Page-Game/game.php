@@ -16,10 +16,10 @@
     <body>
         <div id='cssmenu'>
             <ul>
-                <li><a href='../Page-accueil/index.html'><span>Accueil</span></a></li>
-                <li><a href='../Page-inscription-connexion/index.html'><span>Connexion</span></a></li>
-                <li class='active'><a href='../Page-Game/index.html'><span>Jouer</span></a></li>
-                <li><a href='../Page-Score/index.html'><span>Scores</span></a></li>
+                <li><a href='../Page-accueil/index.php'><span>Accueil</span></a></li>
+                <li><a href='../Page-inscription-connexion/connexion.php'><span>Connexion</span></a></li>
+                <li class='active'><a href='../Page-Game/game.php'><span>Jouer</span></a></li>
+                <li><a href='../Page-Score/score.php'><span>Scores</span></a></li>
             </ul>
         </div>
         <header>
@@ -222,6 +222,7 @@
                     </div>
                 </div>
                 <div id="listContainer">
+                    <!-- <h2>Mots Melax</h2> -->
                     <p>Voici la liste des mots à trouver :</p>
                     <ul id="list">
                         <li>Chat</li>
@@ -246,6 +247,6 @@
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript" src="../Page-Game/js/main.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
